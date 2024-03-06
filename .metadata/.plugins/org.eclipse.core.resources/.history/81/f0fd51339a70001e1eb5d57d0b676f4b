@@ -1,0 +1,15 @@
+package Ashu;
+
+public class Function{
+	public static void main(String[] args) {
+		 }
+	 public void test() {
+		 System.out.println("test method");
+	 }
+	 public int par() {
+		 int a = 25;
+		 int b = 20;
+		 int c = 30;
+		 return c;
+	 }
+}

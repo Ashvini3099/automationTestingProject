@@ -1,0 +1,22 @@
+package webdriver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class TC_Dropdown{
+	
+	public static void main(String args[]) {
+		System.setProperty("webdriver.gecko.driver", "D:\\Web Drivers\\geckodriver-v0.32.2-win64\\geckodriver.exe");
+		WebDriver driver= new FirefoxDriver();
+		
+		driver.navigate().to("http://183.82.103.245/nareshit/login.php");
+		System.out.println(driver.getTitle());
+		Thread.sleep(3000);
+		
+		driver.findElement(By.name("txtUserName")).sendKeys("nareshit");
+		driver.findElement(By.name("txtPassword")).sendKeys("nareshit");
+		driver.findElement(By.name("Submit")).click();
+		
+		driver
+	}
+}

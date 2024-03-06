@@ -1,0 +1,21 @@
+package Ashu;
+
+public class Operator {
+	public static void main(String[] args) {
+		int a = 20;
+		int b = 30;
+		int c;
+			c=a+b;
+		if(b>c) {
+			System.out.println("b is greater than a");
+
+	}
+		else {
+			System.out.println("c is greater than b");
+		}
+	
+		
+	}
+	
+
+}

@@ -1,0 +1,19 @@
+package Ashu;
+
+import java.util.ArrayList;
+
+public class Arraylist1 {
+	public static void main(String[] args) {
+		
+		int a[] = new int[3];
+		
+		ArrayList ar = new ArrayList();
+		 ar.add(10, ar);
+		 ar.add(20, ar);
+		 System.out.println(ar.size());
+
+		
+	}
+	
+	
+}

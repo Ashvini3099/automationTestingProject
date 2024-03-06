@@ -1,0 +1,21 @@
+package ashviniexample;
+
+public class A_Var {
+	public static void main(String[]args) {
+		char s= 'd';
+		char f = 'g';
+	System.out.print(s);
+		System.out.print(f);
+	}
+}
+	
+
+	
+				
+			
+	
+	
+
+
+	
+

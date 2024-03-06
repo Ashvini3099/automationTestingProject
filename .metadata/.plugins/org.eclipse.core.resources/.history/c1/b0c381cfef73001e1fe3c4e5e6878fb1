@@ -1,0 +1,9 @@
+package Ashu;
+
+public class ArrayList{
+	public static void main(String[] args) {
+		int a[]= new int[3];
+		
+		ArrayList ar =  new ArrayList()
+	}
+}

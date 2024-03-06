@@ -1,0 +1,11 @@
+package Ashu;
+
+public class Testjava {
+	public static void main(String[] args) {
+		BMW b = new BMW();
+		b.start();
+		b.stop();
+		b.refuel();
+	}
+
+}

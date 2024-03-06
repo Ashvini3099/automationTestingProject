@@ -1,0 +1,22 @@
+package Ashu;
+
+public class Overloading {
+	public static void main(String[] args) {
+		Overloading  obj = new Overloading();
+		obj.bike();
+		obj.bike(120000,"Black");
+		obj.bike("Audi");
+		
+	}
+	public void bike() {
+		System.out.println("Car is very expensive");
+	}
+	public void bike(int price,String  color) {
+		System.out.println("Car is very expensive");
+		}
+	public void bike(String model) {
+		System.out.println("car is very expensive");
+		
+	}
+	
+}
